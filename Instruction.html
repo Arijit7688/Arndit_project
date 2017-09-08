@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>
+Instruction
+</title>
+<style>
+#mybutton{
+	
+	position: absolute;
+	left: 50%;
+	bottom:15%;
+	width: 120px;
+	height:60px;
+	color: blue;
+	border-radius:28px;
+	font-size:22px;
+	text-shadow:0px 1px 0px #2f6627;
+	cursor:pointer;
+	box-shadow: 0px 0px 20px 2px #3dc21b;
+}
+
+
+</style>
+
+
+</head>
+
+<body bgcolor="#D8D8D8">
+
+
+
+
+
+
+
+<script>
+
+
+
+document.write("<h1> Hi  "+ localStorage.Playername + "</h1>");
+
+document.write("<h2> Are you ready???...please read the following instructions before hitting the Play button.</h2>");
+
+
+document.write("<h3><br> Instructions:-      </h3>");
+
+document.write("<h3>1. There are different types of grids in each level of the game. You'll control the blue ball and the red ball(s) will be controlled by computer. Your task is to reach the box which is marked as GOAL.</h3>");
+
+document.write("<h3>2. You can only move the blue ball into the adjacent boxes vertically and horizontally in the grid. You cannot move diagonally in the grid. You cannot jump one box to another which is not adjacent.</h3>");
+
+document.write("<h3>3. In each level, there is a timer. You have to reach the GOAL within the time limit.</h3>");
+
+document.write("<h3>4. You cannot move the box which is occupied by a red ball. Similarly, a red ball cannot move to the box,which is occupied by you.</h3>");
+
+document.write("<h3>5. Difficulty of the game will increase with level.</h3>");
+
+</script>
+
+<form>
+
+<input type="button" id="mybutton" align="center" value="PLAY" onclick="location.href='Level1.html';" >
+</form>
+
+
+</body>
+
+
+</html>
